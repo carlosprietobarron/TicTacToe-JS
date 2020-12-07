@@ -1,70 +1,83 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link type="text/css" rel="stylesheet" href="css/styles.css">
   <title>TIC-TAC-TOE</title>
+
+  <!-- Linkedin section -->
+  <meta name="description" content="_" />
+  <meta name="title" property="og:title" content="TIC-TAC-TOE" />
+  <meta property="og:type" content="Website" />
+  <meta name="image" property="og:image" content="https://live.staticflickr.com/65535/50691982332_2ea026ca0e_w.jpg" />
+  <meta name="description" property="og:description" content="This is the classic game "Tic-tac-toe" with an original UI concept, it follows the normal game rules and can be played by two players. Build with Javascript, HTML, and CSS." />
+  <meta name="author" content="Carlos Prieto Barrón & Andres Felipe Perez Restrepo" />
+
+  <!-- <a data-flickr-embed="true" href="https://www.flickr.com/photos/191312881@N03/50691982332/in/dateposted-public/" title="proj-tictactoe"><img src="https://live.staticflickr.com/65535/50691982332_2ea026ca0e_w.jpg" -->
 </head>
+
 <body>
-  <div class = "playerContainer">
-    <div id = "Player1" class = "playerDisplay"></div>
-    <div class = "versus"> VS</div>
-    <div id = "Player2" class = "playerDisplay"></div>
+  <div class="playerContainer">
+    <div id="Player1" class="playerDisplay"></div>
+    <div class="versus"> VS</div>
+    <div id="Player2" class="playerDisplay"></div>
   </div>
-  <div class = "victoryScreenStyle" id = "victoryScreen"></div>
-  <div id = "boardDiv">
+  <div class="victoryScreenStyle" id="victoryScreen"></div>
+  <div id="boardDiv">
     <table id="board-table">
       <tr>
         <td>
-          <div id = "0-0" class = "cell" onclick=""></div>
+          <div id="0-0" class="cell" onclick=""></div>
         </td>
         <td>
-          <div id = "0-1" class = "cell"></div>
+          <div id="0-1" class="cell"></div>
         </td>
         <td>
-          <div id = "0-2" class = "cell"></div>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <div id = "1-0" class = "cell"></div>
-        </td>
-        <td>
-          <div id = "1-1" class = "cell"></div>
-        </td>
-        <td>
-          <div id = "1-2" class = "cell"></div>
+          <div id="0-2" class="cell"></div>
         </td>
       </tr>
       <tr>
         <td>
-          <div id = "2-0" class = "cell"></div>
+          <div id="1-0" class="cell"></div>
         </td>
         <td>
-          <div id = "2-1" class = "cell"></div>
+          <div id="1-1" class="cell"></div>
         </td>
         <td>
-          <div id = "2-2" class = "cell"></div>
+          <div id="1-2" class="cell"></div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div id="2-0" class="cell"></div>
+        </td>
+        <td>
+          <div id="2-1" class="cell"></div>
+        </td>
+        <td>
+          <div id="2-2" class="cell"></div>
         </td>
       </tr>
     </table>
   </div>
 
-  <div class = "BottomContainer">
-    <div class = "PlayersForms">
-      <div id = "divForm"></div>
-      <div id = "divForm2"></div>
-      <div id = "saveButtonDiv"></div>
-    </div>    
-    <div class = "buttons">
-      <div id = "buttonDiv"></div>
-      <div id = "buttonDiv2"></div>
-    </div>    
+  <div class="BottomContainer">
+    <div class="PlayersForms">
+      <div id="divForm"></div>
+      <div id="divForm2"></div>
+      <div id="saveButtonDiv"></div>
+    </div>
+    <div class="buttons">
+      <div id="buttonDiv"></div>
+      <div id="buttonDiv2"></div>
+    </div>
   </div>
-  
+
 </body>
 <script src="scripts/gamelogic.js"></script>
 <script src="scripts/player.js"></script>
 <script src="scripts/gameboard.js"></script>
 <script src="scripts/index.js"></script>
+
 </html>
